@@ -3,11 +3,11 @@
 import React from 'react';
 import { Target, Zap, Clock } from 'lucide-react';
 import { cn } from '@/lib/utils';
-import { Insight } from '@/lib/intelligence-engine';
+import { UIInsight } from '@/lib/intelligence-engine';
 import { motion } from 'framer-motion';
 
 interface RecommendationCardProps {
-  insight: Insight;
+  insight: UIInsight;
   index: number;
 }
 
